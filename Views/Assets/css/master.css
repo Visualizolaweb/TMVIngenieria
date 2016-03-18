@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+header{
+  padding: 20px 0 5px 0;
+  font-family: "Oswald";}
+
+#logos img{
+  width: 40%;
+  margin-left: 10px;
+  margin-left: 10px;}
+
+#logos img:nth-child(1){
+  margin-top:20px;}
+
+
+@media only screen and (max-width: 990px){
+  #logos{
+    text-align: center;
+    margin: auto;
+  }
+  #logos img{
+    width: 80%;
+    margin-top: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 784px){
+  header h2{
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  header h2{
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+}
